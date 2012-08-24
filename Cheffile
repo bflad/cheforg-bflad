@@ -1,0 +1,7 @@
+site "http://community.opscode.com/api/v1"
+
+# Opscode Community Cookbooks
+
+# Third Party Cookbooks
+cookbook "bflad", :git => "https://github.com/bflad/chef-bflad"
+cookbook "rvm", :git => "https://github.com/fnichol/chef-rvm"
