@@ -1,6 +1,7 @@
 site "http://community.opscode.com/api/v1"
 
 # Opscode Community Cookbooks
+cookbook "dmg", :git => "https://github.com/opscode-cookbooks/dmg"
 cookbook "homebrew", :git => "https://github.com/opscode-cookbooks/homebrew"
 
 # Third Party Cookbooks
