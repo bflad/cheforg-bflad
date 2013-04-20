@@ -1,9 +1,14 @@
+.bundle
 .rbenv-version
 .rbenv-gemsets
 .vagrant
 .DS_Store
+bin
 cookbooks
+Gemfile.lock
+site-cookbooks
 tmp
 
 .chef/*.pem
 .chef/encrypted_data_bag_secret
+.chef/knife.rb
