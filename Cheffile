@@ -1,9 +1,10 @@
 site "http://community.opscode.com/api/v1"
 
 # Opscode Community Cookbooks
-cookbook "dmg", :git => "https://github.com/opscode-cookbooks/dmg"
-cookbook "homebrew", :git => "https://github.com/opscode-cookbooks/homebrew"
+cookbook "dmg"
+cookbook "homebrew"
 
 # Third Party Cookbooks
 cookbook "bflad", :git => "https://github.com/bflad/chef-bflad"
+cookbook "jtds", :git => "https://github.com/bflad/chef-jtds"
 cookbook "rvm", :git => "https://github.com/fnichol/chef-rvm"
