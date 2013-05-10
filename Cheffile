@@ -5,6 +5,6 @@ cookbook "dmg"
 cookbook "homebrew"
 
 # Third Party Cookbooks
-cookbook "bflad", :git => "https://github.com/bflad/chef-bflad"
-cookbook "jtds", :git => "https://github.com/bflad/chef-jtds"
-cookbook "rvm", :git => "https://github.com/fnichol/chef-rvm"
+cookbook "bflad", :github => "bflad/chef-bflad"
+cookbook "jtds", :github => "bflad/chef-jtds"
+cookbook "rvm", :github => "fnichol/chef-rvm"
