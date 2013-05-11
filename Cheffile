@@ -7,6 +7,7 @@ cookbook "homebrew"
 # Third Party Cookbooks
 cookbook "bflad", :github => "bflad/chef-bflad"
 cookbook "confluence", :github => "bflad/chef-confluence"
+cookbook "docker", :github => "bflad/chef-docker"
 cookbook "jira", :github => "bflad/chef-jira"
 cookbook "jtds", :github => "bflad/chef-jtds"
 cookbook "mysql_connector", :github => "bflad/chef-mysql_connector"
