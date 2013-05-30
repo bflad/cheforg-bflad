@@ -2,18 +2,18 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     apache2 (1.6.2)
-    apt (1.9.2)
-    aws (0.100.6)
+    apt (1.10.0)
+    aws (0.101.0)
     build-essential (1.4.0)
     chef_gem (0.1.0)
     chef_handler (1.1.4)
-    database (1.3.12)
+    database (1.4.0)
       aws (>= 0.0.0)
       mysql (>= 1.3.0)
       postgresql (>= 1.0.0)
       xfs (>= 0.0.0)
     dmg (1.1.0)
-    git (2.5.0)
+    git (2.5.2)
       build-essential (>= 0.0.0)
       dmg (>= 0.0.0)
       runit (>= 1.0)
@@ -21,7 +21,7 @@ SITE
       yum (>= 0.0.0)
     golang (1.0.2)
     homebrew (1.3.2)
-    java (1.10.2)
+    java (1.11.4)
       windows (>= 0.0.0)
     lxc (1.0.0)
     modules (0.1.2)
@@ -29,18 +29,18 @@ SITE
       build-essential (>= 0.0.0)
       openssl (>= 0.0.0)
     openssl (1.0.2)
-    perl (1.1.0)
-    postgresql (2.4.0)
+    perl (1.1.2)
+    postgresql (3.0.0)
       apt (>= 0.0.0)
       build-essential (>= 0.0.0)
       openssl (>= 0.0.0)
     runit (1.1.4)
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
-    windows (1.8.10)
+    windows (1.9.0)
       chef_handler (>= 0.0.0)
     xfs (1.1.0)
-    yum (2.2.0)
+    yum (2.2.2)
 
 GIT
   remote: https://github.com/bflad/chef-bflad
@@ -105,9 +105,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: 48015eccf8eec39b0d6ced31aeeb5ea3c3ec7e27
+  sha: 7ceb874fb67b04cae4b5de70689f37a62fd29d39
   specs:
-    stash (2.12.0)
+    stash (2.13.0)
       apache2 (>= 0.0.0)
       database (>= 0.0.0)
       git (>= 0.0.0)
