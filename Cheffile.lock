@@ -2,7 +2,7 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     apache2 (1.6.2)
-    apt (1.10.0)
+    apt (2.0.0)
     aws (0.101.0)
     build-essential (1.4.0)
     chef_gem (0.1.0)
@@ -34,13 +34,13 @@ SITE
       apt (>= 0.0.0)
       build-essential (>= 0.0.0)
       openssl (>= 0.0.0)
-    runit (1.1.4)
+    runit (1.1.6)
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
-    windows (1.9.0)
+    windows (1.10.0)
       chef_handler (>= 0.0.0)
     xfs (1.1.0)
-    yum (2.2.2)
+    yum (2.3.0)
 
 GIT
   remote: https://github.com/bflad/chef-bflad
@@ -66,9 +66,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: 594b806d77d3378853850b66d1fdda5f8b11919b
+  sha: 5da94369a06ce78fb8d8e2215174f83db04297cf
   specs:
-    docker (0.3.0)
+    docker (0.4.0)
       apt (>= 0.0.0)
       git (>= 0.0.0)
       golang (>= 0.0.0)
