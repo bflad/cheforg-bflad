@@ -124,9 +124,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-skyline
   ref: master
-  sha: ba541b079446bafbcb99575a248f4a68618c8681
+  sha: 4349b8bf57ba6bc802831fbc90de6f9223985fed
   specs:
-    skyline (0.1.1)
+    skyline (0.1.2)
       git (>= 0.0.0)
       python (>= 0.0.0)
       redis (>= 0.0.0)
