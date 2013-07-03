@@ -6,6 +6,7 @@ cookbook "homebrew"
 
 # Third Party Cookbooks
 cookbook "bflad", :github => "bflad/chef-bflad"
+cookbook "cacti", :github => "bflad/chef-cacti"
 cookbook "confluence", :github => "bflad/chef-confluence"
 cookbook "docker", :github => "bflad/chef-docker"
 cookbook "jira", :github => "bflad/chef-jira"
