@@ -121,9 +121,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-mysql_connector
   ref: master
-  sha: 3647b6c3dfdecc011082f69436e20c90be5a1350
+  sha: 724fe2bad3934112d60ee8943e49289abf4c339a
   specs:
-    mysql_connector (0.4.0)
+    mysql_connector (0.4.1)
 
 GIT
   remote: https://github.com/bflad/chef-scipy
@@ -149,9 +149,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: eb7b05b670c6fcdb1432bbccb951a012055f4c57
+  sha: 94047b28818b4f14147abe0127752e2d57c28e30
   specs:
-    stash (2.15.0)
+    stash (2.16.0)
       apache2 (>= 0.0.0)
       database (>= 0.0.0)
       git (>= 0.0.0)
