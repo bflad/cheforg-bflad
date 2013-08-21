@@ -1,8 +1,8 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    apache2 (1.6.6)
-    apt (2.0.0)
+    apache2 (1.7.0)
+    apt (2.1.0)
     aws (0.101.2)
     build-essential (1.4.0)
     chef_gem (0.1.0)
@@ -149,9 +149,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: f5dc70fec439d223491a13f2e0ce54e499d8adb5
+  sha: 721450a39d4da3c7b7e86c9bef06aa4d380b6405
   specs:
-    stash (2.17.0)
+    stash (2.18.0)
       apache2 (>= 0.0.0)
       database (>= 0.0.0)
       git (>= 0.0.0)
