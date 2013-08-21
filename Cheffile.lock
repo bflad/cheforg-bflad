@@ -149,10 +149,11 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: 721450a39d4da3c7b7e86c9bef06aa4d380b6405
+  sha: abecac36e7c10815808e390e8ad5e002446e4cdd
   specs:
-    stash (2.18.0)
+    stash (2.19.0)
       apache2 (>= 0.0.0)
+      cron (>= 0.0.0)
       database (>= 0.0.0)
       git (>= 0.0.0)
       java (>= 0.0.0)
