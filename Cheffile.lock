@@ -128,6 +128,16 @@ GIT
     mysql_connector (0.5.0)
 
 GIT
+  remote: https://github.com/bflad/chef-protobuf
+  ref: master
+  sha: 912861fb299961d4905bc00d8cc68c1b41ebcfa4
+  specs:
+    protobuf (0.1.0)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+
+GIT
   remote: https://github.com/bflad/chef-scipy
   ref: master
   sha: 359c6b74c956ede6239b0c1e4a7cc522009dc7e5
@@ -182,6 +192,7 @@ DEPENDENCIES
   jira (>= 0)
   jtds (>= 0)
   mysql_connector (>= 0)
+  protobuf (>= 0)
   rvm (>= 0)
   scipy (>= 0)
   skyline (>= 0)
