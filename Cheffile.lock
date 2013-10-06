@@ -107,9 +107,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-gflags
   ref: master
-  sha: 7f8e0b3047bbe867198c6c902ccd573631671272
+  sha: b94d5735a04a7c8d007c671ec88eb3841219c3b1
   specs:
-    gflags (0.1.1)
+    gflags (0.1.2)
       apt (>= 0.0.0)
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
