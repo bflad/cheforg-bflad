@@ -101,6 +101,16 @@ GIT
       modules (>= 0.0.0)
 
 GIT
+  remote: https://github.com/bflad/chef-gflags
+  ref: master
+  sha: ae204eca4aa512e5fb774a9696d6591d83974d6a
+  specs:
+    gflags (0.1.0)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+
+GIT
   remote: https://github.com/bflad/chef-jira
   ref: master
   sha: 0b63b8fb072555161bfea02b286097d552eab7cb
@@ -188,6 +198,7 @@ DEPENDENCIES
   confluence (>= 0)
   dmg (>= 0)
   docker (>= 0)
+  gflags (>= 0)
   homebrew (>= 0)
   jira (>= 0)
   jtds (>= 0)
