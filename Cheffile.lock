@@ -140,9 +140,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-lmctfy
   ref: master
-  sha: 2bfd0a22861c8bfeb658b42bce24aeac6a1986cc
+  sha: 7e0782aa65659e95ca98a426045ee944781d81a1
   specs:
-    lmctfy (0.1.0)
+    lmctfy (0.1.1)
       build-essential (>= 0.0.0)
       control_groups (>= 0.0.0)
       gflags (>= 0.0.0)
