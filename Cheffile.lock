@@ -160,9 +160,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-protobuf
   ref: master
-  sha: 569607a69ccd9233da54881d8a1e12c7b5e4f8c5
+  sha: d23a3471e5d8dea380cb6e1ab7d12b3200ed5890
   specs:
-    protobuf (0.1.2)
+    protobuf (0.2.0)
       apt (>= 0.0.0)
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
