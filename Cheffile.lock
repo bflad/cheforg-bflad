@@ -2,9 +2,9 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     apache2 (1.8.4)
-    apt (2.2.1)
+    apt (2.3.0)
     ark (0.4.0)
-    aws (0.101.6)
+    aws (1.0.0)
     build-essential (1.4.2)
     chef_gem (0.1.0)
     chef_handler (1.1.4)
@@ -27,7 +27,7 @@ SITE
       git (>= 0.0.0)
     homebrew (1.3.2)
     install_from (3.0.4)
-    java (1.14.0)
+    java (1.15.0)
       aws (>= 0.0.0)
       windows (>= 0.0.0)
     lxc (1.1.2)
@@ -60,7 +60,7 @@ SITE
     windows (1.11.0)
       chef_handler (>= 0.0.0)
     xfs (1.1.0)
-    yum (2.3.4)
+    yum (2.4.0)
 
 GIT
   remote: https://github.com/bflad/chef-bflad
@@ -202,9 +202,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: ea2fefd077549a0d6b33eccf7bf514449e83ccaa
+  sha: ba4db79e0cf5d555160bcb28f295bfa0d13b5f66
   specs:
-    stash (3.0.1)
+    stash (3.1.0)
       apache2 (>= 0.0.0)
       ark (>= 0.0.0)
       cron (>= 0.0.0)
