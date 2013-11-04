@@ -15,7 +15,7 @@ SITE
       mysql (>= 1.3.0)
       postgresql (>= 1.0.0)
       xfs (>= 0.0.0)
-    dmg (2.0.4)
+    dmg (2.0.6)
     dpkg_autostart (0.1.8)
     git (2.7.0)
       build-essential (>= 0.0.0)
@@ -38,7 +38,7 @@ SITE
       windows (>= 0.0.0)
     metachef (3.0.4)
     modules (0.1.3)
-    mysql (3.0.12)
+    mysql (4.0.0)
       build-essential (~> 1.4)
       openssl (~> 1.1)
     openssl (1.1.0)
@@ -202,9 +202,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: ba4db79e0cf5d555160bcb28f295bfa0d13b5f66
+  sha: 12a3575a05fc1f3b4c452ba2f0e220d972ce96d6
   specs:
-    stash (3.1.0)
+    stash (3.1.1)
       apache2 (>= 0.0.0)
       ark (>= 0.0.0)
       cron (>= 0.0.0)
