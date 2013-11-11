@@ -47,7 +47,7 @@ SITE
       apt (>= 0.0.0)
       build-essential (>= 0.0.0)
       openssl (>= 0.0.0)
-    python (1.4.0)
+    python (1.4.4)
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
     redis (3.0.4)
@@ -181,9 +181,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-scipy
   ref: master
-  sha: 359c6b74c956ede6239b0c1e4a7cc522009dc7e5
+  sha: c9bd8fab06a43515f5d8e54708f99e67e97d971c
   specs:
-    scipy (0.1.0)
+    scipy (0.2.0)
       apt (>= 0.0.0)
       python (>= 0.0.0)
       yum (>= 0.0.0)
