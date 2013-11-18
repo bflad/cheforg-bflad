@@ -30,7 +30,7 @@ SITE
     java (1.15.0)
       aws (>= 0.0.0)
       windows (>= 0.0.0)
-    lxc (1.1.2)
+    lxc (1.1.4)
       dpkg_autostart (~> 0.1.6)
     mercurial (2.0.2)
       build-essential (>= 0.0.0)
@@ -98,9 +98,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: 0617e8f9b2f6f2ea0c8b45ff4a62ef921ed6ff85
+  sha: ab0e8b320601ac2b9c2d84476c13d1cf63510da9
   specs:
-    docker (0.13.0)
+    docker (0.14.0)
       apt (>= 0.0.0)
       git (>= 0.0.0)
       golang (>= 0.0.0)
