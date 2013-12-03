@@ -59,7 +59,7 @@ SITE
     windows (1.11.0)
       chef_handler (>= 0.0.0)
     xfs (1.1.0)
-    yum (2.4.2)
+    yum (2.4.4)
 
 GIT
   remote: https://github.com/bflad/chef-bflad
@@ -97,9 +97,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: 72343ee6eb3e482f56d10abd0e3f567f6e60f505
+  sha: 911be35f059b7e70e6e04a6e160597f2cddcca5b
   specs:
-    docker (0.18.1)
+    docker (0.19.0)
       apt (>= 0.0.0)
       git (>= 0.0.0)
       golang (>= 0.0.0)
