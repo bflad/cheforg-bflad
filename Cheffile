@@ -3,6 +3,8 @@ site "http://community.opscode.com/api/v1"
 # Opscode Community Cookbooks
 cookbook "dmg"
 cookbook "homebrew"
+cookbook "powershell"
+cookbook "windows", :git => 'https://github.com/SimpleFinance/chef-windows.git'
 
 # Third Party Cookbooks
 cookbook "bflad", :github => "bflad/chef-bflad"
