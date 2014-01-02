@@ -112,9 +112,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: 1a15749bafdcbde41cf5dfc02bea6ae1e79252ec
+  sha: b02580abc9b6e5650a50010e7dbb96b6deb70453
   specs:
-    docker (0.23.1)
+    docker (0.24.0)
       apt (>= 0.0.0)
       git (>= 0.0.0)
       golang (>= 0.0.0)
