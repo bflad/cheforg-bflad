@@ -60,6 +60,7 @@ SITE
       build-essential (>= 0.0.0)
       yum (~> 3.0)
       yum-epel (>= 0.0.0)
+    sysctl (0.3.5)
     xfs (1.1.0)
     yum (3.0.4)
     yum-epel (0.2.0)
@@ -111,15 +112,16 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: a96664996e95e7753e69f586cad4dee20189e815
+  sha: 2466c6b83a2cfbe04352b947ccc2e6ab85428080
   specs:
-    docker (0.22.0)
+    docker (0.23.0)
       apt (>= 0.0.0)
       git (>= 0.0.0)
       golang (>= 0.0.0)
       lxc (>= 0.0.0)
       modules (>= 0.0.0)
-      yum (>= 0.0.0)
+      sysctl (>= 0.0.0)
+      yum-epel (>= 0.0.0)
 
 GIT
   remote: https://github.com/bflad/chef-gflags
