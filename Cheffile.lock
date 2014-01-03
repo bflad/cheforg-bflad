@@ -197,12 +197,12 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-scipy
   ref: master
-  sha: 9e7a78f953c8952c4499cd6a6290ce9f75fdcfb2
+  sha: 52643755e974278eeb4be4903e0c59a0a578d1cd
   specs:
-    scipy (0.2.0)
+    scipy (0.3.0)
       apt (>= 0.0.0)
       python (>= 0.0.0)
-      yum (>= 0.0.0)
+      yum-epel (>= 0.0.0)
 
 GIT
   remote: https://github.com/bflad/chef-skyline
