@@ -197,9 +197,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-scipy
   ref: master
-  sha: 52643755e974278eeb4be4903e0c59a0a578d1cd
+  sha: 8ed98b34aa39c3e526da04ec123aecc31597cf07
   specs:
-    scipy (0.3.0)
+    scipy (0.3.1)
       apt (>= 0.0.0)
       python (>= 0.0.0)
       yum-epel (>= 0.0.0)
