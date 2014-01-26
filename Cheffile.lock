@@ -15,7 +15,7 @@ SITE
       mysql (>= 1.3.0)
       postgresql (>= 1.0.0)
       xfs (>= 0.0.0)
-    dmg (2.1.2)
+    dmg (2.1.4)
     dpkg_autostart (0.1.10)
     git (2.9.0)
       build-essential (>= 0.0.0)
@@ -112,9 +112,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: b6181fbb44db35dc698eead2d349676ad9024ab0
+  sha: ee39e799ecc77cd4949198af1e30522546f4bc73
   specs:
-    docker (0.26.0)
+    docker (0.27.0)
       apt (>= 0.0.0)
       git (>= 0.0.0)
       golang (>= 0.0.0)
