@@ -202,6 +202,13 @@ GIT
       yum (>= 0.0.0)
 
 GIT
+  remote: https://github.com/bflad/chef-rhn
+  ref: master
+  sha: 0c0b7c3b180b488c2400feae267224b28d2a278a
+  specs:
+    rhn (0.2.0)
+
+GIT
   remote: https://github.com/bflad/chef-scipy
   ref: master
   sha: 8ed98b34aa39c3e526da04ec123aecc31597cf07
@@ -263,6 +270,7 @@ DEPENDENCIES
   powershell (>= 0)
   protobuf (>= 0)
   re2 (>= 0)
+  rhn (>= 0)
   rvm (>= 0)
   scipy (>= 0)
   skyline (>= 0)
