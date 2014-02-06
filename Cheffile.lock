@@ -38,7 +38,7 @@ SITE
       windows (>= 0.0.0)
     metachef (3.0.4)
     modules (0.2.0)
-    mysql (4.0.14)
+    mysql (4.0.20)
       build-essential (~> 1.4)
       openssl (~> 1.1)
     openssl (1.1.0)
@@ -86,9 +86,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-cacti
   ref: master
-  sha: 7534e3c1b0fc5c414a7aebed86af84d25120b5f6
+  sha: 2d9353e11803760cb89202c498ed770e47786113
   specs:
-    cacti (0.3.0)
+    cacti (0.4.0)
       apache2 (>= 0.0.0)
       apt (>= 0.0.0)
       build-essential (>= 0.0.0)
