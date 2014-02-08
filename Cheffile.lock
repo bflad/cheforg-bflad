@@ -86,9 +86,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-cacti
   ref: master
-  sha: 2d9353e11803760cb89202c498ed770e47786113
+  sha: b168028fc99dff9d35bb86e21ef7e46682a6d39c
   specs:
-    cacti (0.4.0)
+    cacti (0.5.0)
       apache2 (>= 0.0.0)
       apt (>= 0.0.0)
       build-essential (>= 0.0.0)
