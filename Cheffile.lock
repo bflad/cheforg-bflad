@@ -63,7 +63,7 @@ SITE
     sysctl (0.3.5)
     xfs (1.1.0)
     yum (3.0.6)
-    yum-epel (0.2.0)
+    yum-epel (0.3.0)
       yum (~> 3.0)
 
 GIT
@@ -112,9 +112,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: 0b6cf574585640605bf16cc5b32fc6498cea25de
+  sha: a8f6798732879fe85bc2e666fa0b26195539063b
   specs:
-    docker (0.30.1)
+    docker (0.30.2)
       apt (>= 0.0.0)
       git (>= 0.0.0)
       golang (>= 0.0.0)
