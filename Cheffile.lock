@@ -2,7 +2,7 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     apache2 (1.8.14)
-    apt (2.3.6)
+    apt (2.3.8)
     ark (0.4.2)
     aws (1.0.0)
     build-essential (1.4.2)
@@ -62,8 +62,8 @@ SITE
       yum-epel (>= 0.0.0)
     sysctl (0.3.5)
     xfs (1.1.0)
-    yum (3.0.6)
-    yum-epel (0.3.0)
+    yum (3.1.0)
+    yum-epel (0.3.2)
       yum (~> 3.0)
 
 GIT
@@ -112,15 +112,16 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: a8f6798732879fe85bc2e666fa0b26195539063b
+  sha: b7be21bf6633890957a48d52735b1006211efe0a
   specs:
-    docker (0.30.2)
+    docker (0.31.0)
       apt (>= 0.0.0)
       git (>= 0.0.0)
       golang (>= 0.0.0)
       homebrew (>= 0.0.0)
       lxc (>= 1.1.6)
       modules (>= 0.0.0)
+      runit (>= 0.0.0)
       sysctl (>= 0.0.0)
       yum-epel (>= 0.0.0)
 
