@@ -1,23 +1,26 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    apache2 (1.8.14)
+    apache2 (1.9.0)
+      iptables (>= 0.0.0)
+      logrotate (>= 0.0.0)
+      pacman (>= 0.0.0)
     apt (2.3.8)
-    ark (0.4.2)
-    aws (1.0.0)
-    build-essential (1.4.2)
+    ark (0.6.0)
+    aws (2.1.0)
+    build-essential (1.4.4)
     chef_gem (0.1.0)
-    chef_handler (1.1.4)
+    chef_handler (1.1.5)
     control_groups (0.1.6)
-    cron (1.2.8)
-    database (1.6.0)
+    cron (1.3.0)
+    database (2.0.0)
       aws (>= 0.0.0)
       mysql (>= 1.3.0)
       postgresql (>= 1.0.0)
       xfs (>= 0.0.0)
-    dmg (2.1.4)
+    dmg (2.2.0)
     dpkg_autostart (0.1.10)
-    git (2.9.0)
+    git (2.10.0)
       build-essential (>= 0.0.0)
       dmg (>= 0.0.0)
       runit (>= 1.0.0)
@@ -27,9 +30,9 @@ SITE
     golang (1.3.0)
     homebrew (1.5.4)
     install_from (3.0.4)
-    java (1.17.2)
-      aws (>= 0.0.0)
-      windows (>= 0.0.0)
+    iptables (0.12.0)
+    java (1.19.2)
+    logrotate (1.5.0)
     lxc (1.1.8)
       dpkg_autostart (~> 0.1.10)
     mercurial (2.0.4)
@@ -38,10 +41,13 @@ SITE
       windows (>= 0.0.0)
     metachef (3.0.4)
     modules (0.2.0)
-    mysql (4.0.20)
+    mysql (4.1.1)
       build-essential (~> 1.4)
+      homebrew (>= 0.0.0)
       openssl (~> 1.1)
+      windows (>= 0.0.0)
     openssl (1.1.0)
+    pacman (1.1.1)
     perl (1.2.2)
     postgresql (3.3.4)
       apt (>= 0.0.0)
@@ -62,8 +68,8 @@ SITE
       yum-epel (>= 0.0.0)
     sysctl (0.3.5)
     xfs (1.1.0)
-    yum (3.1.0)
-    yum-epel (0.3.2)
+    yum (3.1.2)
+    yum-epel (0.3.4)
       yum (~> 3.0)
 
 GIT
@@ -179,7 +185,7 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-mysql_connector
   ref: master
-  sha: 3fcf29983ef71a21a4953c95363e88f06b87ccfe
+  sha: 59734680b22f9d18de5c4b9a1af8759db420f90c
   specs:
     mysql_connector (0.6.0)
 
@@ -234,9 +240,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: 867fd248b5bbb1694bd1fed09a203cb3b3e70d01
+  sha: e948a7c5006b1761028041218f22c360ceda37d9
   specs:
-    stash (3.6.0)
+    stash (3.7.0)
       apache2 (>= 0.0.0)
       ark (>= 0.0.0)
       cron (>= 0.0.0)
