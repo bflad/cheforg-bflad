@@ -20,7 +20,7 @@ SITE
       xfs (>= 0.0.0)
     dmg (2.2.0)
     dpkg_autostart (0.1.10)
-    git (2.10.0)
+    git (4.0.0)
       build-essential (>= 0.0.0)
       dmg (>= 0.0.0)
       runit (>= 1.0.0)
@@ -62,13 +62,13 @@ SITE
       install_from (>= 0.0.0)
       metachef (>= 0.0.0)
       runit (>= 0.0.0)
-    runit (1.5.8)
+    runit (1.5.10)
       build-essential (>= 0.0.0)
       yum (~> 3.0)
       yum-epel (>= 0.0.0)
     sysctl (0.3.5)
     xfs (1.1.0)
-    yum (3.1.2)
+    yum (3.1.4)
     yum-epel (0.3.4)
       yum (~> 3.0)
 
@@ -118,9 +118,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: b7be21bf6633890957a48d52735b1006211efe0a
+  sha: e97374ddfcf8f69f6b5d963d0b4c06d3bad57b37
   specs:
-    docker (0.31.0)
+    docker (0.32.0)
       apt (>= 0.0.0)
       git (>= 0.0.0)
       golang (>= 0.0.0)
