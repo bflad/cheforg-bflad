@@ -255,6 +255,14 @@ GIT
       postgresql (>= 0.0.0)
 
 GIT
+  remote: https://github.com/bflad/chef-wkhtmltopdf
+  ref: master
+  sha: 2a606b07ec8dcee2ae145f71e2e1d32229935c70
+  specs:
+    wkhtmltopdf (0.2.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://github.com/fnichol/chef-rvm
   ref: master
   sha: 26ad5c043c70ea98855a049fbbacb7ffc5ad73e3
@@ -284,4 +292,5 @@ DEPENDENCIES
   skyline (>= 0)
   stash (>= 0)
   windows (>= 0)
+  wkhtmltopdf (>= 0)
 
