@@ -83,9 +83,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-aufs
   ref: master
-  sha: 78d81fbc0d2b3390d891429d22e6a1d0e5cdeaa4
+  sha: 50066cb01020a8814dbea1cc28444b79125875b2
   specs:
-    aufs (0.1.0)
+    aufs (0.1.1)
       apt (>= 0.0.0)
       modules (>= 0.0.0)
 
