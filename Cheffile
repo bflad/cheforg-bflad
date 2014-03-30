@@ -7,6 +7,7 @@ cookbook "powershell"
 cookbook "windows", :git => 'https://github.com/SimpleFinance/chef-windows.git'
 
 # Third Party Cookbooks
+cookbook "aufs", :github => "bflad/chef-aufs"
 cookbook "bflad", :github => "bflad/chef-bflad"
 cookbook "cacti", :github => "bflad/chef-cacti"
 cookbook "confluence", :github => "bflad/chef-confluence"
