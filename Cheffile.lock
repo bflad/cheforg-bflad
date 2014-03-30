@@ -125,6 +125,15 @@ GIT
       postgresql (>= 0.0.0)
 
 GIT
+  remote: https://github.com/bflad/chef-device-mapper
+  ref: master
+  sha: 512ddfb5b056b25a910f0a3f6b372df296f505db
+  specs:
+    device-mapper (0.1.0)
+      apt (>= 0.0.0)
+      modules (>= 0.0.0)
+
+GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
   sha: 49de1c01ad9f139197448f979796195bc6326738
@@ -284,6 +293,7 @@ DEPENDENCIES
   bflad (>= 0)
   cacti (>= 0)
   confluence (>= 0)
+  device-mapper (>= 0)
   dmg (>= 0)
   docker (>= 0)
   gflags (>= 0)
