@@ -81,6 +81,15 @@ GIT
       chef_handler (>= 0.0.0)
 
 GIT
+  remote: https://github.com/bflad/chef-aufs
+  ref: master
+  sha: 78d81fbc0d2b3390d891429d22e6a1d0e5cdeaa4
+  specs:
+    aufs (0.1.0)
+      apt (>= 0.0.0)
+      modules (>= 0.0.0)
+
+GIT
   remote: https://github.com/bflad/chef-bflad
   ref: master
   sha: 47c7e6cbc12e6228f2badb5b6557b8102a992dcb
@@ -271,6 +280,7 @@ GIT
       chef_gem (>= 0.0.0)
 
 DEPENDENCIES
+  aufs (>= 0)
   bflad (>= 0)
   cacti (>= 0)
   confluence (>= 0)
