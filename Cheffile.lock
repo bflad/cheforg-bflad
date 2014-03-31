@@ -205,9 +205,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-mysql_connector
   ref: master
-  sha: ea2e87a1bfb5de087b82d4f9093df82f096257aa
+  sha: 3a84f6b3cb145f5d3778a363bf311f1977dfc5eb
   specs:
-    mysql_connector (0.6.0)
+    mysql_connector (0.7.1)
 
 GIT
   remote: https://github.com/bflad/chef-protobuf
