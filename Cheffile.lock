@@ -10,7 +10,7 @@ SITE
     aws (2.1.0)
     build-essential (1.4.4)
     chef_gem (0.1.0)
-    chef_handler (1.1.5)
+    chef_handler (1.1.6)
     control_groups (0.1.6)
     cron (1.3.0)
     database (2.0.0)
@@ -83,7 +83,7 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-aufs
   ref: master
-  sha: 2b10799a2737af9f3dd38d130246bababbed4630
+  sha: 8f74000e05726a7eeaba05c861812b2d68ec88d4
   specs:
     aufs (0.1.1)
       apt (>= 0.0.0)
@@ -127,7 +127,7 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-device-mapper
   ref: master
-  sha: 512ddfb5b056b25a910f0a3f6b372df296f505db
+  sha: ef412fb67509e0f0f4e8bcf53828768c07eaee7a
   specs:
     device-mapper (0.1.0)
       apt (>= 0.0.0)
@@ -136,9 +136,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-docker
   ref: master
-  sha: a2e8d340649e2364ead4646808168b706d1957f4
+  sha: ba8546820dc3c5d38052f4e28bc6f28761242642
   specs:
-    docker (0.33.1)
+    docker (0.34.0)
       apt (>= 0.0.0)
       aufs (>= 0.1.1)
       device-mapper (>= 0.1.0)
