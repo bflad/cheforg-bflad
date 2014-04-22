@@ -6,7 +6,7 @@ SITE
       logrotate (>= 0.0.0)
       pacman (>= 0.0.0)
     apt (2.3.8)
-    ark (0.6.0)
+    ark (0.8.0)
     aws (2.1.1)
     build-essential (2.0.0)
     chef_gem (0.1.0)
@@ -32,7 +32,7 @@ SITE
     homebrew (1.5.4)
     install_from (3.0.4)
     iptables (0.13.2)
-    java (1.19.2)
+    java (1.22.0)
     logrotate (1.5.0)
     lxc (1.1.8)
       dpkg_autostart (~> 0.1.10)
@@ -205,7 +205,7 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-mysql_connector
   ref: master
-  sha: 3a84f6b3cb145f5d3778a363bf311f1977dfc5eb
+  sha: e5aab742c132887b1c4c785390a8e01ae09e9fbf
   specs:
     mysql_connector (0.7.1)
 
@@ -261,9 +261,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: e948a7c5006b1761028041218f22c360ceda37d9
+  sha: b5536571c9c58d191f461e45002d142ba303dc34
   specs:
-    stash (3.7.0)
+    stash (3.8.1)
       apache2 (>= 0.0.0)
       ark (>= 0.0.0)
       cron (>= 0.0.0)
