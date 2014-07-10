@@ -11,7 +11,7 @@ SITE
     ark (0.9.0)
       7-zip (>= 0.0.0)
       windows (>= 0.0.0)
-    aws (2.2.2)
+    aws (2.3.0)
     build-essential (2.0.4)
     chef-sugar (2.0.0)
     chef_gem (0.1.0)
@@ -273,9 +273,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: a43e531aeb32de8c304ad71acf1164f5654ba3b5
+  sha: 05d3ce3494a7b4f52c64349d2f4684aa868a0ea8
   specs:
-    stash (3.10.0)
+    stash (3.10.1)
       apache2 (>= 0.0.0)
       ark (>= 0.0.0)
       cron (>= 0.0.0)
