@@ -37,7 +37,7 @@ SITE
     homebrew (1.6.6)
     install_from (3.0.4)
     iptables (0.13.2)
-    java (1.22.0)
+    java (1.28.0)
     logrotate (1.6.0)
     lxc (1.1.8)
       dpkg_autostart (~> 0.1.10)
