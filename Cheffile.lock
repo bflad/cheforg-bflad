@@ -12,12 +12,12 @@ SITE
       7-zip (>= 0.0.0)
       windows (>= 0.0.0)
     aws (2.4.0)
-    build-essential (2.0.6)
-    chef-sugar (2.3.0)
+    build-essential (2.1.2)
+    chef-sugar (2.4.1)
     chef_gem (0.1.0)
     chef_handler (1.1.6)
     control_groups (0.1.6)
-    cron (1.6.0)
+    cron (1.6.1)
     database (2.3.0)
       aws (>= 0.0.0)
       mysql (>= 5.0.0)
@@ -47,7 +47,7 @@ SITE
       windows (>= 0.0.0)
     metachef (3.0.4)
     modules (0.2.0)
-    mysql (5.5.3)
+    mysql (5.5.4)
       yum-mysql-community (>= 0.0.0)
     mysql-chef_gem (0.0.5)
       build-essential (>= 0.0.0)
@@ -57,7 +57,7 @@ SITE
       chef-sugar (>= 0.0.0)
     pacman (1.1.1)
     perl (1.2.4)
-    postgresql (3.4.6)
+    postgresql (3.4.10)
       apt (>= 1.9.0)
       build-essential (>= 0.0.0)
       openssl (>= 0.0.0)
@@ -77,7 +77,7 @@ SITE
     sysctl (0.6.0)
       ohai (>= 0.0.0)
     xfs (1.1.0)
-    yum (3.3.2)
+    yum (3.4.0)
     yum-epel (0.5.1)
       yum (~> 3.0)
     yum-mysql-community (0.1.10)
@@ -281,9 +281,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: 0d17b1a75ba9f44bf53d684adc4b1cef754c59e3
+  sha: f69119830d537cfe274f06fef0eed8ba82fc49fb
   specs:
-    stash (3.11.1)
+    stash (3.12.1)
       apache2 (>= 0.0.0)
       ark (>= 0.0.0)
       cron (>= 0.0.0)
