@@ -46,8 +46,7 @@ SITE
       windows (>= 0.0.0)
     metachef (3.0.4)
     modules (0.2.0)
-    mysql (6.0.10)
-      smf (>= 0.0.0)
+    mysql (5.6.1)
       yum-mysql-community (>= 0.0.0)
     mysql2_chef_gem (1.0.1)
       build-essential (>= 0.0.0)
@@ -66,7 +65,6 @@ SITE
     python (1.4.4)
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
-    rbac (1.0.2)
     redis (3.0.4)
       install_from (>= 0.0.0)
       metachef (>= 0.0.0)
@@ -75,8 +73,6 @@ SITE
       build-essential (>= 0.0.0)
       yum (~> 3.0)
       yum-epel (>= 0.0.0)
-    smf (2.2.1)
-      rbac (>= 1.0.1)
     sysctl (0.6.0)
       ohai (>= 0.0.0)
     yum (3.5.2)
@@ -283,16 +279,16 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-stash
   ref: master
-  sha: f2728a29fa9c86f2ea8711f2d9d8005841acc889
+  sha: 0682b89205e874e2227f08b1a6abc5e3d9f4f09e
   specs:
-    stash (3.13.0)
+    stash (3.14.0)
       apache2 (>= 0.0.0)
       ark (>= 0.0.0)
       cron (>= 0.0.0)
       database (>= 0.0.0)
       git (>= 0.0.0)
       java (>= 0.0.0)
-      mysql (>= 0.0.0)
+      mysql (~> 5.0)
       mysql_connector (>= 0.0.0)
       perl (>= 0.0.0)
       postgresql (>= 0.0.0)
