@@ -104,6 +104,14 @@ GIT
       modules (>= 0.0.0)
 
 GIT
+  remote: https://github.com/bflad/chef-auto-patch
+  ref: master
+  sha: 70300ec8c22b08bc334685651651ad3212589379
+  specs:
+    auto-patch (0.1.10)
+      cron (>= 0.0.0)
+
+GIT
   remote: https://github.com/bflad/chef-bflad
   ref: master
   sha: 47c7e6cbc12e6228f2badb5b6557b8102a992dcb
@@ -316,6 +324,7 @@ GIT
 
 DEPENDENCIES
   aufs (>= 0)
+  auto-patch (>= 0)
   bflad (>= 0)
   cacti (>= 0)
   confluence (>= 0)
