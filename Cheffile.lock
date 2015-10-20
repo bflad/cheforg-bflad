@@ -264,9 +264,9 @@ GIT
 GIT
   remote: https://github.com/bflad/chef-rhn
   ref: master
-  sha: 0c0b7c3b180b488c2400feae267224b28d2a278a
+  sha: 41ca81e9277c09afe357a46526a7422400a0d96d
   specs:
-    rhn (0.2.0)
+    rhn (0.3.0)
 
 GIT
   remote: https://github.com/bflad/chef-scipy
