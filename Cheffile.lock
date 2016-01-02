@@ -16,7 +16,7 @@ SITE
     build-essential (2.2.4)
     chef-sugar (3.1.1)
     chef_gem (0.1.0)
-    chef_handler (1.1.6)
+    chef_handler (1.2.0)
     compat_resource (12.5.14)
     control_groups (0.1.6)
     cron (1.7.0)
@@ -219,6 +219,14 @@ GIT
     jtds (0.1.0)
 
 GIT
+  remote: https://github.com/bflad/chef-lastrun_handler
+  ref: master
+  sha: 4be8e04b87f0285b1bcac50feab7dd5965ec803d
+  specs:
+    lastrun_handler (0.1.0)
+      chef_handler (>= 0.0.0)
+
+GIT
   remote: https://github.com/bflad/chef-lmctfy
   ref: master
   sha: 9f9221036c8958939f08f8dde3dafa169e8d9490
@@ -342,6 +350,7 @@ DEPENDENCIES
   java-management (>= 0)
   jira (>= 0)
   jtds (>= 0)
+  lastrun_handler (>= 0)
   lmctfy (>= 0)
   lsyncd (>= 0)
   mysql_connector (>= 0)
